@@ -15,7 +15,7 @@ class Hero {
 }
     class Warrior extends Hero {
         useAbility(){
-            console.log(this.name + "uses power strike");
+            console.log(`${this.name} uses power Strike!`);
         }
     }
 
